@@ -4,7 +4,7 @@
 > 練習設計稿來自 [六角學院 - JavaScript 入門篇 - 學徒的試煉](https://www.hexschool.com/courses/javascript.html)
 
 ## DEMO
-- https://albertnotes.github.io/JavaScript_Travel_Web/
+- https://albertnotes.github.io/JavaScript_Travel_Web_bootstrap/
 ## 功能
 
 - 提供 `全地區` 與 `單一地區` 挑選高雄旅遊景點功能
