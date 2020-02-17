@@ -1,0 +1,43 @@
+.date {
+  position: relative;
+  padding-left: 1.5rem;
+  &::before {
+    content: url('../images/icons_clock.png');
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.address {
+  position: relative;
+  padding-left: 1.5rem;
+  &::before {
+    content: url('../images/icons_pin.png');
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.tel {
+  position: relative;
+  padding-left: 1.5rem;
+  &::before {
+    content: url('../images/icons_phone.png');
+    position: absolute;
+    left: 3px;
+    bottom: 0;
+  }
+}
+
+.teg {
+  position: relative;
+  padding-left: 1.5rem;
+  &::before {
+    content: url('../images/icons_tag.png');
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}

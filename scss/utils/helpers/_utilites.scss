@@ -1,0 +1,97 @@
+$theme-colors: (
+  primary: #ffd366,
+  secondary: #424242,
+  light: #f8f9fa,
+  white: #fff
+);
+
+@each $name, $value in $theme-colors {
+  .h-bg-#{$name} {
+    background-color: $value;
+  }
+  .h-text-#{$name} {
+    color: $value;
+  }
+}
+
+$spacing: (
+  1: 0.4375rem,
+  2: 0.75rem,
+  3: 1.125rem,
+  4: 1.3125rem,
+  5: 2.25rem,
+  6: 2.625rem,
+  7: 3rem,
+  8: 4.625rem
+);
+
+@each $name, $value in $spacing {
+  .h-ml-#{$name} {
+    margin-left: $value;
+  }
+  .h-mr-#{$name} {
+    margin-right: $value;
+  }
+  .h-mt-#{$name} {
+    margin-top: $value;
+  }
+  .h-mb-#{$name} {
+    margin-bottom: $value;
+  }
+  .h-my-#{$name} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+  .h-mx-#{$name} {
+    margin-left: $value;
+    margin-right: $value;
+  }
+  .h-pl-#{$name} {
+    padding-left: $value;
+  }
+  .h-pr-#{$name} {
+    padding-right: $value;
+  }
+  .h-pt-#{$name} {
+    padding-top: $value;
+  }
+  .h-pb-#{$name} {
+    padding-bottom: $value;
+  }
+  .h-py-#{$name} {
+    padding-top: $value;
+    padding-bottom: $value;
+  }
+  .h-px-#{$name} {
+    padding-left: $value;
+    padding-right: $value;
+  }
+}
+
+.h-mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.h-text {
+  &-center {
+    text-align: center;
+  }
+  &-left {
+    text-align: left;
+  }
+  &-right {
+    text-align: right;
+  }
+}
+
+.h-d-none {
+  display: none !important;
+}
+
+.custom-select{
+  background: url('../images/icons_down.png') no-repeat 96% center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 3px solid #FFFFFF;
+  border-radius: 3px;
+  height: 3rem;
+}

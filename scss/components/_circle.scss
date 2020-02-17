@@ -1,0 +1,16 @@
+.c-circle {
+  border: 1px solid map-get($theme-colors,secondary);
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  &__angle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 6px 0 6px;
+    border-color: map-get($theme-colors,secondary) transparent transparent transparent;
+  }
+}

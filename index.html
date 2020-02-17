@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>高雄旅遊資訊</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="card border-0 w-100">
+        <img src="images/Hero.png" class="card-img  rounded-0" alt="">
+        <div class="card-img-overlay">
+          <h1 class="text-center text-white mt-5">高雄旅遊資訊</h1>
+          <div class="row justify-content-center mt-5">
+            <div class="col-6">
+              <select class="custom-select" id="selectZoneContainer">
+                <option value="全部地區">全部地區</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-n5">
+      <div class="col-md-6 bg-white rounded shadow py-3">
+        <h5 class="h5">熱門行政區</h5>
+        <ul class="nav nav-fill" id="popularssZone">
+          <li class=" nav-item mr-3">
+            <a class="nav-link rounded text-white bg-primary" href="#">苓雅區</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link rounded text-white bg-warning" href="#">三民區</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link rounded text-white bg-danger" href="#">新興區</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded text-white bg-info" href="#">鹽埕區</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p id="zoneTitle" class="d-none"></p>
+    <div class="h-titleLine my-5">
+      <div class="c-circle">
+        <div class="c-circle__angle"></div>
+      </div>
+    </div>
+    <div class="row" id='dataContainer'></div>
+    <nav>
+      <ul class="pagination justify-content-center" id="pageContainer"></ul>
+    </nav>
+  </div>
+  <footer class="container text-center bg-info py-3">
+    <h6 class="text-white">高雄旅遊網</h6>
+    <small class="text-warning">資料來源：高雄市政府</small>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="js/all.js"></script>
+</body>
+
+</html>
