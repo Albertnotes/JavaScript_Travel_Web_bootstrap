@@ -14,3 +14,7 @@
 - JavaScript XMLHttpRequest API
 - Ajax 資料來源 [高雄旅遊網-景點資料](https://data.kcg.gov.tw/dataset/attractions-information)
 - JavaScript ES6
+
+## 筆記
+
+- 本次專案過程中的分頁功能收錄在 https://albertnotes.github.io/category/20200217/3317550153/
