@@ -17,4 +17,4 @@
 
 ## 筆記
 
-- 本次專案過程中的分頁功能收錄在 https://albertnotes.github.io/category/20200217/3317550153/
+- 本次專案的分頁功能收錄在 https://albertnotes.github.io/category/20200217/3317550153/
